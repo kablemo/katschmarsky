@@ -136,7 +136,6 @@
 		font-size: 1.5rem;
 		margin-right: 0.5rem;
 		color: #1E8449;
-		transition-duration: 0.2s;
 	}
 
 	.fab:hover {
@@ -187,7 +186,7 @@
 
 	/* Responsive version */
 
-	@media (max-width: 700px) { 
+	@media (max-width: 575.98px) { 
 	  
 		main {
 			margin: 0px 15px;
@@ -273,11 +272,11 @@
 		display: none;
 	}
 
-#aqua {
-	display: block;
-			padding-left: 0px;
+	#aqua {
+		display: block;
+		padding-left: 0px;
 		padding-right: 0px;
-}
+	}
 
 	.custom-control-label {
 		width: 100px;
@@ -287,7 +286,108 @@
 		padding: 5% 25% 10% 25%;
 
 	}
+}
 
+
+@media (max-width: 767.98px) { 
+	  
+		main {
+			margin: 0px 15px;
+		}
+
+		.container-fluid {
+			margin: 0px 0px;
+		}
+
+		.nav {
+			display: none;
+		}
+
+
+	  #jumbotron {
+	  	flex-direction: column-reverse;
+	  	margin-top: 25px;
+	  }
+
+	  .align-items-center {
+	  	flex-direction: column;
+	  }
+
+	  .justify-content-sm-between {
+	  	flex-direction: column;
+	  }
+
+	  .justify-content-end {
+	  	justify-content: flex-start;
+	  	align-items: flex-start;
+	  	text-align: left;
+	  }
+
+	  #read-more {
+	  	justify-content: flex-start;
+	  }
+
+	  .card {
+	  	width: 100%;
+	  	margin: 0px 0px 25px 0px;
+	  }
+
+
+	  .justify-content-sm-between {
+	  	align-items: center;
+	  }
+
+	  #red {
+	  	display: none;
+	  }
+
+	  .nav {
+	  	display: none;
+	  }
+
+	  #blue {
+	  	justify-content: space-between;
+	  	align-items: center;
+	  }
+
+	  .fuck {
+	  	display: none;
+	  }
+
+	  .hamburger-menu {
+	  	display: block;
+	  }
+
+	  	.navbar-toggler {
+		display: block;
 	}
 
+	#orange {
+		justify-content: space-between;
+		flex-direction: row;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+		background-color: #F8F9F9;	
+	}
+
+	#hamburger-day-mode-switch {
+		display: none;
+	}
+
+	#aqua {
+		display: block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.custom-control-label {
+		width: 100px;
+	}
+
+	.img-fluid {
+		padding: 5% 25% 10% 25%;
+
+	}
+}
 
